@@ -24,7 +24,7 @@ description: "개발정보 정리 기록을 위한 블로그 입니다."
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: "/assets/images/unsplash-image-1.jpg" #   path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser: "/assets/images/unsplash-image-1.jpg"
 logo: "/assets/images/unsplash-gallery-image-3-th.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -41,7 +41,7 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
   utterances:
-    theme: "minimal-mistakes-jekyll" # "github-light" (default), "github-dark"
+    theme: # "github-light" (default), "github-dark"
     issue_term: # "pathname" (default)
   staticman:
     branch: # "master"
@@ -113,7 +113,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/pakjonghun?tab=repositories"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -129,10 +129,10 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/pakjonghun?tab=repositories"
+      # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://github.com/pakjonghun?tab=repositories"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
